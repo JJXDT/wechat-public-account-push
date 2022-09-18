@@ -64,7 +64,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oXbfp54l5iGaVHylnz4cCrXWXfcc",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "",
+      useTemplateId: "6zl7QiNXlaEr7rA6KCbVFPIEIsMdM6MBZ3hzhyEqDqQ",
       // 所在省份
       province: "广东",
       // 所在城市
@@ -93,42 +93,6 @@ export const config = {
         // 退伍日
         {"keyword": "ex_day", date: "2022-09-10"},
       ]
-    },
-    {
-      name: "老婆1",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
-    },
-    {
-      name: "老婆2",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
-    },
-    {
-      name: "老婆3",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
     },
     // 你可以不断按格式往下增加
     // ...
