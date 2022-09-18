@@ -360,7 +360,7 @@ export const getBirthdayMessage = (festivals) => {
         if (item.diffDay === 0) {
          // message = `今天已经在一起 ${ item.name } 哦，要开心！`
         } else {
-          message = `已经在一起 ${ item.diffDay }天啦，要开心！
+          message = `已经在一起 ${ item.diffDay }天啦，要开心！`
         }
       }
       
