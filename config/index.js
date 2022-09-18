@@ -60,7 +60,7 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "老婆0",
+      name: "宝宝",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oXbfp54l5iGaVHylnz4cCrXWXfcc",
       // 你想对他发送的模板消息的模板ID
@@ -79,7 +79,7 @@ export const config = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {"type": "*生日", "name": "宝宝", "year": "2004", "date": "04-01"},
-        {"type": "纪念", "name": "在一起", "year": "2022", "date": "01-26"},
+        {"type": "节日", "name": "在一起的日子", "year": "2022", "date": "01-26"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         // {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
       ],
@@ -88,9 +88,9 @@ export const config = {
         // 在一起的日子
         {"keyword": "love_day", date: "2022-01-26"},
         // 结婚纪念日
-       {"keyword": "marry_day", date: "2022-01-26"},
+      // {"keyword": "marry_day", date: "2022-01-26"},
         // 退伍日
-        //{"keyword": "ex_day", date: "2022-09-10"},
+       // {"keyword": "ex_day", date: "2022-09-10"},
       ]
     },
     // 你可以不断按格式往下增加
@@ -148,11 +148,11 @@ export const config = {
    */
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    {"type": "*生日", "name": "宝宝", "year": "1996", "date": "09-09", isShowAge: true},
-    {"type": "节日", "name": "纪念日", "year": "2020", "date": "09-03"},
+    {"type": "*生日", "name": "宝宝", "year": "2004", "date": "04-01", isShowAge: true},
+    {"type": "节日", "name": "在一起的日子", "year": "2022", "date": "01-26"},
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-    {"type": "生日", "name": "纪", "year": "1996", "date": "09-31", isShowAge: true},
-    {"type": "节日", "name": "纪念", "year": "2021", "date": "09-01"},
+   // {"type": "生日", "name": "纪", "year": "1996", "date": "09-31", isShowAge: true},
+   // {"type": "节日", "name": "纪念", "year": "2021", "date": "09-01"},
     // 你可以不断按格式往下增加
     // ...
   ],
@@ -162,7 +162,7 @@ export const config = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 4,
+  FESTIVALS_LIMIT: 0,
 
   /** 日期相关 */
 
@@ -172,9 +172,9 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2022-09-08"},
+    {"keyword": "love_day", date: "2022-01-26"},
     // 结婚纪念日
-   {"keyword": "marry_day", date: "2022-09-09"},
+   //{"keyword": "marry_day", date: "2022-01-26"},
     // 退伍日
    // {"keyword": "ex_day", date: "2022-09-10"},
     // 你可以不断按格式往下增加
