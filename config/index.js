@@ -64,7 +64,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oXbfp54l5iGaVHylnz4cCrXWXfcc",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "V0IO7nwyBU8lLr5wFpR9rhyAj4DsCpEJRP1l1lDpSFE",
+      useTemplateId: "d4wgNGAvaQZlsEWrsTf-3zzCQhmk1r3D9ihvBEdyZAk",
       // 所在省份
       province: "河北",
       // 所在城市
@@ -78,8 +78,8 @@ export const config = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "宝宝", "year": "2004", "date": "04-01"},
-        {"type": "节日", "name": "在一起的日子", "year": "2022", "date": "01-26"},
+        {"type": "生日", "name": "宝宝", "year": "2004", "date": "05-19"},
+       // {"type": "节日", "name": "在一起的日子", "year": "2022", "date": "01-26"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         // {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
       ],
@@ -102,7 +102,7 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "6zl7QiNXlaEr7rA6KCbVFPIEIsMdM6MBZ3hzhyEqDqQ",
+  CALLBACK_TEMPLATE_ID: "	9WqiOFWHs6kvPyDx9n3IJinBe1FRSN_aiXrrDYp9fuI",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -149,7 +149,7 @@ export const config = {
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
     {"type": "*生日", "name": "宝宝", "year": "2004", "date": "04-01", isShowAge: true},
-    {"type": "节日", "name": "在一起的日子", "year": "2022", "date": "01-26"},
+   // {"type": "节日", "name": "在一起的日子", "year": "2022", "date": "01-26"},
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
    // {"type": "生日", "name": "纪", "year": "1996", "date": "09-31", isShowAge: true},
    // {"type": "节日", "name": "纪念", "year": "2021", "date": "09-01"},
