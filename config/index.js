@@ -63,7 +63,6 @@ export const config = {
       name: "宝宝",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oXbfp56e84lhLSnMrjX51juGgcl4",
-      id: "oXbfp54l5iGaVHylnz4cCrXWXfcc",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "d4wgNGAvaQZlsEWrsTf-3zzCQhmk1r3D9ihvBEdyZAk",
       // 所在省份
